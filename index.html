@@ -1,80 +1,102 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Home | Omega Outreach Center</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Omega Outreach Center</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-
 <body>
-
-<header>
-    <div class="logo">Ω</div>
-    <div class="header-text">
-        <h1>Omega Holiness Church of Atlanta</h1>
-        <p>Omega Outreach Center</p>
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="title-row">
+        <img src="assets/images/OHC-logo.png" alt="Omega Outreach Center logo" class="header-logo">
+        <h1 class="site-title">Omega Outreach Center</h1>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <span class="nav-separator">|</span>
+        <a href="about.html">About</a>
+        <span class="nav-separator">|</span>
+        <a href="ministries.html">Ministries</a>
+        <span class="nav-separator">|</span>
+        <a href="events.html">Events</a>
+        <span class="nav-separator">|</span>
+        <a href="sermons.html">Sermons</a>
+        <span class="nav-separator">|</span>
+        <a href="contact.html">Contact</a>
+        <span class="nav-separator">|</span>
+        <a href="donate.html" class="btn small">Donate</a>
+      </nav>
     </div>
-</header>
-
-<nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="ministries.html">Ministries</a>
-    <a href="events.html">Events</a>
-    <a href="sermons.html">Sermons</a>
-    <a href="contact.html">Contact</a>
-    <a href="donations.html">Donations</a>
-</nav>
-
-<section class="hero">
-    <h2>Welcome Home</h2>
-    <p>We are a community built on faith, love, and purpose.</p>
-</section>
-
-<div class="container">
-
-    <div class="main-content fade-in">
-        <h3>Latest Service</h3>
-
-       <div style="width: 100%; height: 400px;">
-    <iframe 
-        width="100%" 
-        height="100%" 
-        src="https://www.youtube.com/embed/jC0Q2e7oPMQ"
-        frameborder="0" 
-        allowfullscreen>
-    </iframe>
-</div>
-
-        <h4>Message of the Week</h4>
-        <p>Experience powerful teaching and spiritual growth with our latest service.</p>
+  </header>
+  <main>
+    <section class="hero gradient-cerulean">
+      <div class="container hero-content">
+        <h2>Welcome Home</h2>
+        <p class="lead">A safe space for all. A place for worship, community, and spiritual growth in Atlanta, Georgia.</p>
+      </div>
+    </section>
+    <section class="container layout">
+      <div class="main-col">
+        <article id="latest-service" class="card">
+          <h3>Latest Service</h3>
+          <div class="embed-wrap">
+            <iframe src="https://www.youtube.com/embed/Rd0wx_zfMO0?si=ggQi_SKjwcd_c0ux" title="Latest Service" allowfullscreen></iframe>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Message of the Week</h3>
+          <p>“Draw near to God and He will draw near to you.” Join us for worship, prayer, and powerful fellowship.</p>
+        </article>
+      </div>
+      <aside class="side-col">
+        <div class="card">
+          <h4>Service Times</h4>
+          <div class="service-times">
+            <div class="service-card">
+              <h5>Sunday Service</h5>
+              <p>11:00 AM</p>
+            </div>
+            <div class="service-card">
+              <h5>Bible Study</h5>
+              <p>Thursday 6:30 PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="card join-zoom-card">
+          <div class="join-zoom-row">
+            <div class="join-zoom-text">
+              <a href="https://us02web.zoom.us/j/86505439919" target="_blank" class="btn join-btn">Join Us</a>
+              <p class="passcode-note">Passcode: <strong>104076</strong></p>
+            </div>
+            <a href="https://us02web.zoom.us/j/86505439919" target="_blank" class="zoom-link">
+              <img src="assets/images/zoom.png" alt="Zoom logo" class="zoom-logo-image">
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <h4>Announcements</h4>
+          <div class="announcements">
+            <div class="announcement-card">
+              <h5>Sunday Youth Service</h5>
+              <p>Young adult worship service at 5pm.</p>
+            </div>
+            <div class="announcement-card">
+              <h5>Community Meal</h5>
+              <p>Join us Saturday for a free community lunch.</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Omega Outreach Center — Decatur, GA</p>
     </div>
-
-    <aside class="sidebar fade-in">
-        <h3>Announcements</h3>
-
-        <div class="card">
-            <h4>Sunday Service</h4>
-            <p>11:00 AM Weekly</p>
-        </div>
-
-        <div class="card">
-            <h4>Bible Study</h4>
-            <p>Thursday 6:30 PM</p>
-        </div>
-
-        <div class="card">
-            <h4>Outreach Program</h4>
-            <p>Saturday 12:00 PM</p>
-        </div>
-    </aside>
-
-</div>
-
-<footer>
-    <p>&copy; 2026 Omega Outreach Center</p>
-</footer>
-
-<script src="script.js"></script>
+  </footer>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

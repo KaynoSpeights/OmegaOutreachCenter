@@ -1,59 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Sermons | Omega Outreach Center</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sermons — Omega Outreach Center</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-
 <body>
-
-<header>
-    <div class="logo">Ω</div>
-    <div class="header-text">
-        <h1>Omega Holiness Church of Atlanta</h1>
-        <p>Omega Outreach Center</p>
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="title-row">
+        <img src="assets/images/OHC-logo.png" alt="Omega Outreach Center logo" class="header-logo">
+        <h1 class="site-title">Omega Outreach Center</h1>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <span class="nav-separator">|</span>
+        <a href="about.html">About</a>
+        <span class="nav-separator">|</span>
+        <a href="ministries.html">Ministries</a>
+        <span class="nav-separator">|</span>
+        <a href="events.html">Events</a>
+        <span class="nav-separator">|</span>
+        <a href="sermons.html">Sermons</a>
+        <span class="nav-separator">|</span>
+        <a href="contact.html">Contact</a>
+        <span class="nav-separator">|</span>
+        <a href="donate.html" class="btn small">Donate</a>
+      </nav>
     </div>
-</header>
-
-<nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="ministries.html">Ministries</a>
-    <a href="events.html">Events</a>
-    <a href="sermons.html">Sermons</a>
-    <a href="contact.html">Contact</a>
-    <a href="donations.html">Donations</a>
-</nav>
-
-<section class="hero">
-    <h2>Sermons</h2>
-    <p>Watch and grow through the Word.</p>
-</section>
-
-<div class="container">
-    <div class="main-content fade-in">
-
-        <div class="video-box">
-            <iframe src="https://www.youtube.com/embed/jC0Q2e7oPMQ" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div class="video-box">
-            <iframe src="https://www.youtube.com/embed/a1SQSEiYDDs?si=fUFnyWS7AwL1LKjk" frameborder="0"  allowfullscreen></iframe>
-        </div>
-
+  </header>
+  <main>
+    <section class="page-header gradient-cerulean container">
+      <h1>Sermons</h1>
+    </section>
+    <section class="container">
+      <h2>Latest Sermons</h2>
+      <div class="grid">
+        <div class="card embed-wrap"><iframe src="https://www.youtube.com/embed/Rd0wx_zfMO0?si=ggQi_SKjwcd_c0ux" title="Sermon 1" allowfullscreen></iframe></div>
+        <div class="card embed-wrap"><iframe src="https://www.youtube.com/embed/HrwtRU1vMC4?si=MWP-D0I4T2dyR3B2" title="Sermon 2" allowfullscreen></iframe></div>
+        <div class="card embed-wrap"><iframe src="https://www.youtube.com/embed/pAcJ7VBc9yc?si=xhetN2YspvVKtzMy" title="Sermon 3" allowfullscreen></iframe></div>
+      </div>
+      <h2>Worship Playlist</h2>
+      <div class="card embed-wrap">
+        <iframe src="https://www.youtube.com/embed/irudeHYeLcQ?si=cq0Lf_8ejd5wwWDM" title="Worship Playlist" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Omega Outreach Center</p>
     </div>
-
-    <aside class="sidebar fade-in">
-        <h3>Sermon Archive</h3>
-        <p>More teachings will be added weekly.</p>
-    </aside>
-</div>
-
-<footer>
-    <p>&copy; 2026 Omega Outreach Center</p>
-</footer>
-
-<script src="script.js"></script>
+  </footer>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
